@@ -1,0 +1,58 @@
+body {
+    background-image: url('background.gif'); /* Ruta a tu imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-position: center center; /* Centra la imagen tanto horizontal como verticalmente */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    color: white; /* Color de texto */
+    text-align: center; /* Alinear texto al centro */
+    padding: 20px; /* Espaciado interior */
+    margin: 0; /* Eliminar márgenes por defecto */
+    height: 95vh; /* Altura del cuerpo igual a la altura de la ventana */
+    display: flex; /* Utilizar flexbox para centrar contenido verticalmente */
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+}
+
+
+h1 {
+    margin-top: 100px; /* Espacio superior para el título */
+    color: #000000
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background: #000000;
+    width: 400px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #B9B9B9;
+}
